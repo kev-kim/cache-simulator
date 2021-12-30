@@ -1,4 +1,4 @@
-#Cache Simulator
+# Cache Simulator
 
 This is a cache simulator created to examine the efficiency of different cache configurations. The simulator supports up to 18 different configurations that come from these categories:
 
@@ -6,7 +6,7 @@ This is a cache simulator created to examine the efficiency of different cache c
 2. Write-allocate and write-back, write-allocate and write-through, or no-write-allocate and write-through
 3. LRU (least recently used) or FIFO (first-in, first-out)
 
-##Usage
+## Usage
 
 First make the simulator with either `make` or `make csim`
 
