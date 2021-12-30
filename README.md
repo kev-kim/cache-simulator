@@ -19,9 +19,7 @@ Then, run the cache simulator with the following parameters:
 - **wb** is either write-back or write-through
 - **policy** is either lru or fifo
 
-For example, a configuration with 256 sets of 4 blocks each (aka a 4-way set-associative cache), with each block containing 16 bytes of memory, and the cache performing write-allocate but no write-through (so it does write-back instead) with lru eviction would be run as such:
-
-```./csim 256 4 16 write-allocate write-back lru < sometracefile```
+For example, a configuration with 256 sets of 4 blocks each (aka a 4-way set-associative cache), with each block containing 16 bytes of memory, and the cache performing write-allocate but no write-through (so it does write-back instead) with lru eviction would be run as such: ```./csim 256 4 16 write-allocate write-back lru < sometracefile```
 
 Example trace files are given in the tests folder. (Thank you Professor Hovemeyer!)
 
